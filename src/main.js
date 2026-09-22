@@ -41,6 +41,9 @@ const calculateBonus = function calculateBonusByProfit(index, total, seller) {
     }
 }
 
+const calculateSimpleRevenue = calculateRevenue;
+const calculateBonusByProfit = calculateBonus;
+
 /**
  * Функция для анализа данных продаж
  * @param data
